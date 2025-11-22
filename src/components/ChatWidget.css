@@ -1,0 +1,58 @@
+.chat-widget {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: #28a745;
+  border-radius: 12px;
+  padding: 16px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.chat-avatar {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-info {
+  flex: 1;
+}
+
+.chat-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chat-status {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.ask-ai-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.ask-ai-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

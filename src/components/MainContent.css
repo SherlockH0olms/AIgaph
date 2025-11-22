@@ -1,0 +1,25 @@
+.main-content {
+  flex: 1;
+  padding: 32px;
+  background: #f8f9fa;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.left-section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

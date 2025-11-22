@@ -1,0 +1,135 @@
+.insights-header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title-section h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.title-section p {
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.time-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-select {
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: white;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.time-filter svg {
+  color: #6c757d;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 12px 16px;
+  flex: 1;
+  max-width: 500px;
+}
+
+.search-bar svg {
+  color: #6c757d;
+  margin-right: 12px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.search-bar input::placeholder {
+  color: #6c757d;
+}
+
+.search-btn {
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.filter-btn {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  color: #6c757d;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #f8f9fa;
+}
+
+.category-tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.category-tag {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #6c757d;
+}
+
+.category-tag.active {
+  background: #e8f5e8;
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.category-tag:hover:not(.active) {
+  background: #f8f9fa;
+}
